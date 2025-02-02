@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #include "ITaxPayer.hpp"
 #include "includes.hpp"
@@ -7,13 +7,13 @@
 class TaxPayer : public ITaxPayer
 {
 protected:
-	std::string m_name;					// имя налогоплательщика
-	std::string m_id;					// идентификационный номер налогоплательщика
-	double m_amount;					// сумма налога к уплате
-	static unsigned m_payers_number;	// общее количество налогоплательщиков
+	std::string m_name;					// РёРјСЏ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°
+	std::string m_id;					// РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°
+	double m_amount;					// СЃСѓРјРјР° РЅР°Р»РѕРіР° Рє СѓРїР»Р°С‚Рµ
+	static unsigned m_payers_number;	// РѕР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєРѕРІ
 
 public:
-	TaxPayer() :						// стандартный конструктор
+	TaxPayer() :						// СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 		m_name{"John Doe"},
 		m_id{"0000-0000-0000"},
 		m_amount{0.0}
@@ -61,18 +61,3 @@ public:
 	}
 		
 };
-
-
-
-
-
-/*
-{
-	std::cout
-	<< "/t----Информация о налогоплательщике----\n"
-	<< "Имя: " << m_name << std::endl
-	<< "ID: " << m_id << std::endl
-	<< "Сумма к выплате: " << m_amount << std::endl << std::endl
-	<< "Общее число налогоплательщиков: " << m_payers_number << std::endl;
-}
-*/ 

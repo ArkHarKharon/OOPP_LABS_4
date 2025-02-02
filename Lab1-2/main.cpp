@@ -1,4 +1,4 @@
-#include "includes.hpp"
+п»ї#include "includes.hpp"
 #include "LegalEntity.hpp"
 #include "IE.hpp"
 
@@ -13,9 +13,9 @@ int main()
 
 	payers.at(0) = new IndividualEntrepreneur();
 	payers.at(1) = new IndividualEntrepreneur();
-	payers.at(2) = new LegalEntity("Даниил","0000-1234-0000",1000, "5622");
-	payers.at(3) = new IndividualEntrepreneur("Андрей", "0000-5793-1575", 500, "Метамфетамин");
-	payers.at(4) = new LegalEntity("Станислав", "2490-1234-8534", 3000, "12487");
+	payers.at(2) = new LegalEntity("Р”Р°РЅРёРёР»","0000-1234-0000",1000, "5622");
+	payers.at(3) = new IndividualEntrepreneur("РђРЅРґСЂРµР№", "0000-5793-1575", 500, "РњРµС‚Р°РјС„РµС‚Р°РјРёРЅ");
+	payers.at(4) = new LegalEntity("РЎС‚Р°РЅРёСЃР»Р°РІ", "2490-1234-8534", 3000, "12487");
 	
 	payers.at(0) = new LegalEntity();
 

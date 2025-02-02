@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include "TaxPayer.hpp"
 
 class LegalEntity : public TaxPayer
@@ -27,11 +27,11 @@ public:
 	virtual void get_information() override
 	{
 		std::cout
-			<< "\t----Èíôîðìàöèÿ î íàëîãîïëàòåëüùèêå----\n"
-			<< "Èìÿ: " << m_name << std::endl
+			<< "\t----Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¾ Ð½Ð°Ð»Ð¾Ð³Ð¾Ð¿Ð»Ð°Ñ‚ÐµÐ»ÑŒÑ‰Ð¸ÐºÐµ----\n"
+			<< "Ð˜Ð¼Ñ: " << m_name << std::endl
 			<< "ID: " << m_id << std::endl
-			<< "Ñóììà ê âûïëàòå: " << m_amount << std::endl
-			<< "Ðåãèñòðàöèîííûé íîìåð: " << m_register_number << std::endl 
-			<< "Îáùåå ÷èñëî íàëîãîïëàòåëüùèêîâ: " << m_payers_number << std::endl << std::endl;
+			<< "Ð¡ÑƒÐ¼Ð¼Ð° Ðº Ð²Ñ‹Ð¿Ð»Ð°Ñ‚Ðµ: " << m_amount << std::endl
+			<< "Ð ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€: " << m_register_number << std::endl 
+			<< "ÐžÐ±Ñ‰ÐµÐµ Ñ‡Ð¸ÑÐ»Ð¾ Ð½Ð°Ð»Ð¾Ð³Ð¾Ð¿Ð»Ð°Ñ‚ÐµÐ»ÑŒÑ‰Ð¸ÐºÐ¾Ð²: " << m_payers_number << std::endl << std::endl;
 	}
 };
