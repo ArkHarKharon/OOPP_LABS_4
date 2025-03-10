@@ -3,7 +3,7 @@
 #include "CountingMethod.hpp"
 
 
-//Метод по умолчанию
+//Стратегия по умолчанию
 float full(float init_value)
 {
 	return init_value;
