@@ -19,4 +19,15 @@ int main()
 	CarManual sport_manual = manual_builder->get_manual();
 	sport_manual.show_manual();
 
+	std::cout << std::endl;
+
+	director->make_SUV_car(car_builder);
+	Car SUV_car = car_builder->get_car();
+	SUV_car.print_information();
+
+
+	director->make_SUV_car(manual_builder);
+	CarManual SUV_manual = manual_builder->get_manual();
+	SUV_manual.show_manual();
+
 }

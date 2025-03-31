@@ -61,7 +61,7 @@ public:
 
 		else
 		{
-			m_manual.m_computer_manual = "Your car doesn't has trip computer (believe me, it's better this way";
+			m_manual.m_computer_manual = "Your car doesn't has trip computer (believe me, it's better this way)";
 		}
 	}
 
